@@ -1,0 +1,185 @@
+body {
+    display: grid;
+    height: 150vh;
+    grid-template-rows: auto 1fr auto;
+    
+}
+
+header {
+    background-color:rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px; 
+}
+
+#hairdaylogo:hover { 
+    box-shadow: 0 8px 8px 0 rgb(255, 253, 253), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+nav {
+    color:aliceblue;
+    font-size: 3vh;
+}
+
+ul {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+li { 
+    
+    border: solid;
+    border-color:rgb(207, 94, 60);
+    border-radius: 20px;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+li:hover {
+    box-shadow: 0 8px 8px 0 rgb(255, 253, 253), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ .promo {
+    display: block;
+    text-wrap: wrap;
+    text-align: center;
+ }
+
+ figcaption {
+    display: block;
+    flex-wrap: wrap;
+    border:solid;
+    border-radius: 20px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    align-items: right;
+    max-width: 100%;
+    
+ }
+#washing {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    min-width: 50%;
+    min-height: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    border-style: solid;
+    border-color: black;
+    border-width: .5vh;
+}
+
+.bottom {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  color:black;
+  text-align: center;
+  transform: translate(0,-200px);
+  font-size: 2vh;
+  padding-top:5px;
+  padding-left: 60vh;
+  border-style: none;
+}
+
+.bottom:hover {
+    box-shadow: inset 0 8px 8px 0 rgb(255, 253, 253), 0 6px 20px 0 rgba(0, 0, 0, 0.19);; 
+    color: blueviolet;
+    border-style:groove;
+    border-radius: 20px;
+    padding: 5px;
+  
+}
+
+main {
+    background-color: rgb(246, 212, 201);
+    text-align: center;
+    padding: 2vh;
+    background-image: url(Artboard\ 23.png);
+    background-repeat: repeat;
+    background-size: 40vh;
+    position:relative;
+    overflow: hidden;
+    color:rgb(207, 94, 60)    
+}
+
+.container {
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: .5vh;
+    border-radius: 2vh;
+    background-color: bisque;
+    column-gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transform: translate(0, -70px);
+
+}
+
+h3 {
+    color:rgb(207, 94, 60)
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: aliceblue;
+    padding: 2em;
+}
+
+
+#img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 90%;
+    margin: 20px auto;
+  }
+
+  p {
+    font-size: 3vh;
+    color: rgb(207, 94, 60)
+  }
+
+  #message {
+    font-size: 3vh;
+  }
+
+  .container2 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+  }
+
+  .centered {
+    border: solid;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    min-width: 50%;
+    min-height: 50%;
+    max-width: 100%;
+    max-height:100%; 
+    border-color: black;
+  }
+
+  .centered:hover {
+    box-shadow: inset 0 8px 8px 0 rgb(255, 253, 253), 0 6px 20px 0 rgba(0, 0, 0, 0.19);; 
+    color: blueviolet;
+    border-style:groove;
+    border-radius: 20px;
+    padding: 5px;
+  
+}
